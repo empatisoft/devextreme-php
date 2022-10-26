@@ -1,0 +1,29 @@
+{
+    "name": "empatisoft/devextreme-php",
+    "type": "library",
+    "description": "Devextreme components with php",
+    "keywords": ["devextreme", "devexpress", "php", "backend", "ui", "datagrid", "datatable"],
+    "homepage": "https://empatisoft.com",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/empatisoft/devextreme-php/issues",
+        "source": "https://github.com/empatisoft/devextreme-php"
+    },
+    "authors": [
+        {
+            "name": "Onur KAYA",
+            "email": "empatisoft@gmail.com",
+            "homepage": "https://empatisoft.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Empatisoft\\Devextreme\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
